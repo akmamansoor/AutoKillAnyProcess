@@ -83,22 +83,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property AKMA_Solutions_Banner() As System.Drawing.Bitmap
+        Friend ReadOnly Property AKMA_Solutions_Banner_1() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("AKMA_Solutions_Banner", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("AKMA_Solutions_Banner_1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to {\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
-        '''{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\ul\b\f0\fs16 COPYRIGHT NOTICE:\ulnone\b0\par
-        '''\par
-        '''Permission is hereby granted, free of charge, to any person\par
-        '''obtaining a copy of this software and associated documentation\par
-        '''files (the &quot;Software&quot;), to deal in the Software without\par
-        '''restriction, including without limitation the rights to use,\par
-        '''copy, modify, merge, publish, sublicense and distribute the s [rest of string was truncated]&quot;;.
+        '''  Looks up a localized string similar to {\rtf1\adeflang1097\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang16393\deflangfe16393\themelang16393\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+        '''{\f34\fbidi \froman\fcharset1\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}T [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property COPYING() As String
             Get

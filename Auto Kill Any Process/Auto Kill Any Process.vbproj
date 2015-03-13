@@ -121,7 +121,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -136,7 +135,6 @@
     <None Include="Resources\AKAP User Guide.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\AKMA Solutions Banner.jpg" />
     <EmbeddedResource Include="Resources\COPYING.rtf" />
     <EmbeddedResource Include="Resources\IcoAutoKillAnyProcess.ico" />
   </ItemGroup>
@@ -169,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\AKAP_About_Image_Small.jpg" />
+    <None Include="Resources\AKMA Solutions Banner 1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
