@@ -167,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\AKAP_About_Image_Small.jpg" />
+    <Content Include="Resources\AKAP_Icon.gif" />
     <None Include="Resources\AKMA Solutions Banner 1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
